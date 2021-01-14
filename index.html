@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
 
-  30-day, hassle-free money back guarantee
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <main class="main">
+          <div class="card card--white">
+            <h3 class="card__title--cyan">Join our community</h3>
+            <p class="card__guarantee">
+              30-day, hassle-free money back guarantee
+            </p>
+            <p class="card__description--gray">
+              Gain access to our full library of tutorials along with expert
+              code reviews. Perfect for any developers who are serious about
+              honing their skills.
+            </p>
+          </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+          <div class="card card--cyan">
+            <h4 class="card__title">Monthly Subscription</h4>
+            <p class="card__promotion"><strong>&dollar;29</strong>per month</p>
+            <p class="card__description--white">
+              Full access for less than &dollar;1 a day
+            </p>
+            <button class="card__btn">Sign Up</button>
+          </div>
 
-  Monthly Subscription
+          <div class="card card--cyan">
+            <h4 class="card__title">Why Us</h4>
+            <ul class="card__listWhyUs">
+              <li>Tutorials by industry experts</li>
+              <li>Peer &amp; expert code review</li>
+              <li>Coding exercises</li>
+              <li>Access to our GitHub repos</li>
+              <li>Community forum Flashcard decks</li>
+              <li>New videos every week</li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
 
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
 </html>
